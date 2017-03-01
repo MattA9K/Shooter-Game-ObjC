@@ -45,11 +45,14 @@
         int randomX = arc4random_uniform(maxX) + minX;
         int randomY = arc4random_uniform(maxY) + minY;
         
+        CGSize unitSize = CGSizeMake(60, 60);
+        CGPoint randomPointInViewableGameScene = CGPointMake(randomX, randomY);
         SKSpriteNode* enemyNode = [[SKSpriteNode alloc] initWithImageNamed:@"enemy"];
-        enemyNode.name = @"enemy";
         
-        enemyNode.position = CGPointMake(randomX, randomY);
-        enemyNode.size = CGSizeMake(60, 60);
+        enemyNode.name = @"enemy";
+        enemyNode.position = randomPointInViewableGameScene;
+        enemyNode.size = unitSize;
+        
         [self addChild:enemyNode];
     }
 }
