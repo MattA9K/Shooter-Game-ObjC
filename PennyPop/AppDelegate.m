@@ -1,9 +1,9 @@
 //
-//  AppDelegate.m
-//  PennyPop
+//  GameScene.h
+//  EmptySpriteKit
 //
-//  Created by Jerry Fu on 8/17/16.
-//  Copyright © 2016 WRKSHP. All rights reserved.
+//  Created by Matt Andrzejczuk on 2/28/17.
+//  Copyright © 2017 Matt Andrzejczuk. All rights reserved.
 //
 
 #import "AppDelegate.h"

@@ -35,7 +35,7 @@
 		CB6CB4481D658C4300792210 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy.png; path = PennyPop/Resources/enemy.png; sourceTree = "<group>"; };
 		CB6CB4491D658C4300792210 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = PennyPop/Resources/home.png; sourceTree = "<group>"; };
 		CB6CB44A1D658C4300792210 /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particle.png; path = PennyPop/Resources/particle.png; sourceTree = "<group>"; };
-		CBAC97931D657B5A000C4F49 /* PennyPopTestUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyPopTestUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAC97931D657B5A000C4F49 /* Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAC97971D657B5A000C4F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBAC97991D657B5A000C4F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBAC979A1D657B5A000C4F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		CBAC978A1D657B5A000C4F49 = {
 			isa = PBXGroup;
 			children = (
-				CBAC97951D657B5A000C4F49 /* PennyPop */,
+				CBAC97951D657B5A000C4F49 /* Shooter */,
 				CBAC97941D657B5A000C4F49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +67,12 @@
 		CBAC97941D657B5A000C4F49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBAC97931D657B5A000C4F49 /* PennyPopTestUIKit.app */,
+				CBAC97931D657B5A000C4F49 /* Shooter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBAC97951D657B5A000C4F49 /* PennyPop */ = {
+		CBAC97951D657B5A000C4F49 /* Shooter */ = {
 			isa = PBXGroup;
 			children = (
 				CBAC97B61D65828C000C4F49 /* Resources */,
@@ -91,6 +91,7 @@
 				CBAC97961D657B5A000C4F49 /* Supporting Files */,
 				C84FEC971E660E3300062685 /* fire.sks */,
 			);
+			name = Shooter;
 			path = PennyPop;
 			sourceTree = "<group>";
 		};
@@ -117,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBAC97921D657B5A000C4F49 /* PennyPopTestUIKit */ = {
+		CBAC97921D657B5A000C4F49 /* Shooter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBAC97AA1D657B5A000C4F49 /* Build configuration list for PBXNativeTarget "PennyPopTestUIKit" */;
+			buildConfigurationList = CBAC97AA1D657B5A000C4F49 /* Build configuration list for PBXNativeTarget "Shooter" */;
 			buildPhases = (
 				CBAC978F1D657B5A000C4F49 /* Sources */,
 				CBAC97901D657B5A000C4F49 /* Frameworks */,
@@ -129,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = PennyPopTestUIKit;
+			name = Shooter;
 			productName = PennyPop;
-			productReference = CBAC97931D657B5A000C4F49 /* PennyPopTestUIKit.app */;
+			productReference = CBAC97931D657B5A000C4F49 /* Shooter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CBAC978E1D657B5A000C4F49 /* Build configuration list for PBXProject "PennyPopTestUIKit" */;
+			buildConfigurationList = CBAC978E1D657B5A000C4F49 /* Build configuration list for PBXProject "Shooter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBAC97921D657B5A000C4F49 /* PennyPopTestUIKit */,
+				CBAC97921D657B5A000C4F49 /* Shooter */,
 			);
 		};
 /* End PBXProject section */
@@ -313,8 +314,8 @@
 				INFOPLIST_FILE = PennyPop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.pennypop.PennyPopTestUIKit;
-				PRODUCT_NAME = PennyPopTestUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andrzejczuk.Shooter;
+				PRODUCT_NAME = Shooter;
 			};
 			name = Debug;
 		};
@@ -326,15 +327,15 @@
 				INFOPLIST_FILE = PennyPop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.pennypop.PennyPopTestUIKit;
-				PRODUCT_NAME = PennyPopTestUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andrzejczuk.Shooter;
+				PRODUCT_NAME = Shooter;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBAC978E1D657B5A000C4F49 /* Build configuration list for PBXProject "PennyPopTestUIKit" */ = {
+		CBAC978E1D657B5A000C4F49 /* Build configuration list for PBXProject "Shooter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBAC97A81D657B5A000C4F49 /* Debug */,
@@ -343,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBAC97AA1D657B5A000C4F49 /* Build configuration list for PBXNativeTarget "PennyPopTestUIKit" */ = {
+		CBAC97AA1D657B5A000C4F49 /* Build configuration list for PBXNativeTarget "Shooter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBAC97AB1D657B5A000C4F49 /* Debug */,
