@@ -1,5 +1,6 @@
-Shooter Game in Objective-C
+# Shooter Game in Objective-C
 
+##### Learn how to create a very basic shoot-em up game for iOS
 
 
 
