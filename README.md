@@ -3,6 +3,7 @@
 ##### Learn how to create a very basic shoot-em up game for iOS
 
 
+![GitHub Logo](/images/https://github.com/MattAndrzejczuk/Shooter-Game-ObjC/blob/master/demo.gif?raw=true)
 
 
 #### Create a basic destructible enemy unit:
